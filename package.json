@@ -1,0 +1,21 @@
+{
+  "name": "carto-atom",
+  "version": "0.0.1",
+  "description": "Carto language highlight in Atom",
+  "license": "WTFPL",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yohanboniface/carto-atom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yohanboniface/carto-atom/issues"
+  },
+  "dependencies": {
+    "mapnik-reference": "^6.0.4",
+    "underscore": "^1.7.0"
+  }
+}
