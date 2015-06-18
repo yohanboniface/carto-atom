@@ -1,5 +1,5 @@
 {
-  "name": "language-carto",
+  "name": "carto-atom",
   "version": "0.6.0",
   "description": "Carto language highlight in Atom",
   "license": "MIT",
