@@ -3,7 +3,11 @@
 var path = require('path'),
     fs = require('fs'),
     _ = require('underscore')._,
-    ref = require('mapnik-reference').version['3.0.0'];
+    versions = require('mapnik-reference').versions,
+    load = require('mapnik-reference').load,
+    latest = versions[versions.length - 1],
+    ref = load(latest);
+
 
 var color_names = _.keys(ref.colors);
 var property_names = _.reduce(ref.symbolizers, function (memo, s) {

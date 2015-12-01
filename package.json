@@ -15,7 +15,7 @@
     "url": "https://github.com/yohanboniface/carto-atom/issues"
   },
   "dependencies": {
-    "mapnik-reference": "^6.0.4",
+    "mapnik-reference": "^8.5.1",
     "underscore": "^1.7.0"
   }
 }
