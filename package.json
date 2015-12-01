@@ -1,6 +1,6 @@
 {
   "name": "language-carto",
-  "version": "0.6.2",
+  "version": "0.7.0",
   "description": "Carto language highlight in Atom",
   "license": "MIT",
   "engines": {
